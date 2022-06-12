@@ -145,8 +145,7 @@ h2.title {
 }
 
 .waiting .waiting_header {
-  margin-top: 88px;
-  font-family: 'Roboto';
+  font-family: 'Roboto-Light';
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -156,8 +155,8 @@ h2.title {
 
 .waiting .waiting_subheader {
   color: #4A4A4A;
-  margin-top: 43px;
-  font-family: 'Roboto';
+  margin-top: 18px;
+  font-family: 'Roboto-Light';
   font-size: 23px;
   text-align: center;
 }
@@ -168,4 +167,28 @@ h2.title {
   background-color: #F9BF3B;
   margin: 0 auto;
   margin-top: 18px;
+}
+
+.waiting .waiting_wrapper {
+  margin-top: 45px;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 15px;
+  width: 339px;
+  text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
+  margin-top: 26px;
+  font-family: 'Roboto-Light';
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img {
+  width: 100%;
 }
