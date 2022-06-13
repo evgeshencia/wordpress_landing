@@ -247,5 +247,22 @@ section.finish {
 }
 
 .finish .finish_wrapper .finish_item .finish_round {
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 120px;
+  height: 120px;
+  background-color: #B4E2FF;
+  border-radius: 100%;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr {
+  margin-top: 25px;
+  text-align: center;
+  color: #EFEFEF;
+  font-family: 'Roboto-Light';
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 300;
 }
