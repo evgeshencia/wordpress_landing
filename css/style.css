@@ -302,3 +302,87 @@ section.finish {
   cursor: pointer;
   outline: none;
 }
+
+.vebinar {
+  min-height: 550px;
+  padding: 0 0 53px 0;
+}
+
+.vebinar .container .vebinar_img {
+  display: block;
+  padding-top: 89px;
+  margin: 0 auto;
+}
+.vebinar .container .vebinar_descr {
+  margin-top: 36px;
+  font-family: 'Roboto-Light';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.vebinar .container .vebianar_time {
+  margin-top: 30px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #299CBD;
+}
+
+.vebinar .container .subscribe {
+  margin-top: 25px;
+  font-family: 'Roboto-Light';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 20px;
+  text-align: center;
+}
+
+footer {
+  height: 169px;
+  background-color: black;
+}
+
+footer a {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto-Light';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  display: flex;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #888888;
+}
+
+.footer_phnum {
+  font-family: 'Roboto-Light';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: #888888;
+}
+
+.information .information_divider {
+
+}
+
+nav a, .footer_phnum {
+  display: block;
+  margin: 0 auto;
+}
