@@ -349,17 +349,16 @@ section.finish {
 footer {
   height: 169px;
   background-color: black;
+  padding-top: 57px;
 }
 
-footer a {
-  display: flex;
-  align-items: center;
+footer .information a {
+  display: inline-block;
   font-family: 'Roboto-Light';
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
   line-height: 21px;
-  display: flex;
   text-align: center;
   text-decoration-line: underline;
   color: #888888;
@@ -378,11 +377,16 @@ footer a {
   color: #888888;
 }
 
-.information .information_divider {
-
-}
-
-nav a, .footer_phnum {
+.footer_phnum {
   display: block;
   margin: 0 auto;
+}
+
+footer div.information {
+  text-align: center;
+}
+
+.support {
+  border-right: thin solid;
+  padding-right: 7px;
 }
